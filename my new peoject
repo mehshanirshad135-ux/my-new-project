@@ -1,0 +1,48 @@
+# Smart Waste Sorting AI
+
+Final project for the Building AI course
+
+## Summary
+
+This project aims to build an AI system that helps robots sort waste more efficiently and accurately using machine vision and machine learning, reducing human effort and improving recycling quality.
+
+## Background
+
+Many recycling facilities struggle with sorting waste accurately. Contaminated or mixed waste reduces recycling efficiency and increases landfill/incineration use.  
+* Manual sorting is slow and dangerous  
+* Current automated solutions are often expensive or inaccurate  
+* AI can help improve speed and accuracy
+
+## How is it used?
+
+Robots equipped with cameras capture images of waste items. The AI model predicts the type of material (plastic, metal, glass, paper, etc.) and instructs the robot to sort it into the correct bin.  
+Users: Recycling facilities, waste management companies, environmental agencies  
+
+![Smart Waste Sorting Robot](https://upload.wikimedia.org/wikipedia/commons/1/12/Robotic_arm_in_factory.jpg)
+
+## Data sources and AI methods
+
+Data: Images of waste items from public datasets or collected in recycling facilities.  
+AI methods: Convolutional Neural Networks (CNNs) for image classification, supervised learning.  
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| CNN         | For recognizing waste types from images |
+| Supervised Learning | Model trained with labeled waste images |
+
+## Challenges
+
+* Cannot handle completely new types of waste not seen during training  
+* Errors may occur due to poor lighting or damaged items  
+* Ethical consideration: workers’ jobs may be affected  
+
+## What next?
+
+* Expand the dataset to cover more waste types  
+* Deploy in small recycling centers for real-world testing  
+* Improve model efficiency to run on edge devices  
+
+## Acknowledgments
+
+* Inspired by Zen Robotics waste sorting AI  
+* Images from Wikimedia Commons: [Robotic arm in factory](https://upload.wikimedia.org/wikipedia/commons/1/12/Robotic_arm_in_factory.jpg) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
